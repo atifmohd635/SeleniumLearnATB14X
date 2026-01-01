@@ -22,7 +22,7 @@ public class TestSeleniumProject1 extends CommonToAll {
             System.out.println("✖ Test case is Fail");
             Assert.assertTrue(false);
         }
-        closeBrowser(driver);
+        CloseBrowser(driver);
 
     }
 }

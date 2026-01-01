@@ -10,9 +10,12 @@ public class CommonToAll {
         driver.get(Url);
         driver.manage().window().maximize();
     }
-    public void closeBrowser(WebDriver driver) throws InterruptedException {
+    public void CloseBrowser(WebDriver driver) throws InterruptedException {
 
         Thread.sleep(5000);
         driver.quit();
+    }
+    public void CustomWait(int time) throws InterruptedException {
+        Thread.sleep(time);
     }
 }
